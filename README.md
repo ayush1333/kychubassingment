@@ -35,7 +35,7 @@ npm or yarn
 
 Clone the repository:
 
-git clone https://github.com/yourusername/financial-dashboard.git
+git clone https://github.com/ayush1333/kychubassingment
 
 Set up Backend:
 
