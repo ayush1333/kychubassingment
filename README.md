@@ -1,23 +1,21 @@
-Financial Risk Dashboard
-A full-stack financial dashboard platform that provides analysts and decision-makers with comprehensive insights into customer financial health. This platform visualizes income, expenses, credit scores, and risk categorization, supported by a responsive and modular front-end (React + TypeScript) and a scalable Node.js backend.
+Dashboard for Financial Risk A platform for full-stack financial dashboards that gives analysts and decision-makers thorough information about the financial health of their clients. This platform uses a scalable Node.js backend and a responsive and modular front-end (React + TypeScript) to visualize income, expenses, credit scores, and risk classification.
 
-🎥 Demo Video:
-Loom Walkthrough: https://drive.google.com/file/d/1oumk9vcz0p6qFsW2dOrmHZfA550M65aM/view?usp=sharing
+🎥 Loom Walkthrough Demo Video: https://drive.google.com/file/d/1oumk9vcz0p6qFsW2dOrmHZfA550M65aM/view
 
-🚀 Project Features
-📈 Dashboard KPIs: Real-time display of total income, expenses, and average credit score.
 
-🧾 Monthly Line Chart: Visualizes income and expense trends over 6 months.
+🚀 Project Features 📈 Dashboard KPIs: Average credit score, total income, and expenses are shown in real time.
 
-🧠 Risk Distribution Pie Chart: Segments customers into High, Medium, and Low risk groups.
+🧾 Monthly Line Chart: Shows trends in income and expenses over a period of six months.
 
-📋 Interactive Table: Search, sort, filter, and manage customer financial data.
+The pie chart for risk distribution divides clients into three risk categories: high, medium, and low.
 
-⚙️ Status Workflow: Update and track customer onboarding or risk-related status.
+📋 Interactive Table: Manage, search, filter, and sort client financial information.
 
-🔌 API-Driven: Data fetched and updated through Node.js REST API.
+⚙️ Status Workflow: Monitor and update risk-related or customer onboarding status.
 
-🔧 Fully modular: Separated components for scalability and reusability.
+🔌 API-Driven: Node.js REST API is used to retrieve and update data.
+
+🔧 Completely modular: Divided parts for reuse and scalability.
 
 🛠️ Tech Stack
 Frontend: React.js, TypeScript, Ant Design, Recharts
@@ -79,36 +77,30 @@ The logic combines and normalizes these values to compute a composite risk score
 
 The score is dynamically updated on user interaction and visualized through:
 
-Risk Score Tag in table
+assigned to type 'CustomerType[]'."
+AI helped create a clean transformation function that aligned chart data with Recharts components' expected shapes.
 
-Color-coded distribution Pie Chart
+Typing Complex Components in React
 
-🤖 AI Tool Usage Breakdown
-During development, AI (ChatGPT) was used for resolving advanced issues—not for full code generation. Key contributions include:
-
-TypeScript Type Mismatch Resolution
-
-Issue: "Type 'CustomerType[]' is not assignable to type 'ChartDataItem[]'."
-AI assisted in designing a clean transformation function to align chart data to expected shape for Recharts components.
-
-Complex Component Typing in React
-
-Issue: "Cannot find name 'setSearchText'."
-AI helped modularize and pass props across components using React.FC<Props> syntax with proper interfaces.
+The problem is "Cannot find name'setSearchText'."
+Using React, AI assisted in modularizing and passing props between components.FC<Props> syntax with appropriate interfaces.
 
 Modularization & JSX Fixes
 
-Issue: "JSX expressions must have one parent element."
-AI helped refactor JSX blocks into reusable components and suggested best practices to structure prop interfaces cleanly.
+"JSX expressions must have one parent element" is the problem.
+AI offered best practices for organizing prop interfaces neatly and assisted in refactoring JSX blocks into reusable components.
 
-Backend Middleware Typing
+Typing in Backend Middleware
 
-Issue: Express req.body was treated as any.
-AI assisted in defining request payload interfaces and applying them for clean API contracts with TypeScript in Node.js.
+Problem: Express req.body was handled like any other.
+AI helped define request payload interfaces and apply them to TypeScript-based clean API contracts in Node.js.
 
 Error Debugging for Uncaught Backend Exceptions
 
-Issue: "TypeError: Cannot read property 'status' of undefined."
-AI guided on validating and safely accessing request body fields and returning meaningful HTTP error responses.
+The problem is "TypeError: Cannot read property'status' of undefined."
+AI provided guidance on how to safely access and validate request body fields and provide insightful HTTP error responses.
 
-📝 Note: AI was used solely to unblock technical implementation, resolve type safety issues, and improve code structure—not for writing core logic or design.
+📝 Note: AI was not used to write core logic or design; rather, it was used only to improve code structure, unblock technical implementation, and fix type safety issues.
+
+
+
