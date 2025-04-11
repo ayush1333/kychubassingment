@@ -1,0 +1,222 @@
+[
+  {
+    "customerId": "CUST1001",
+    "name": "Alice Johnson",
+    "monthlyIncome": 6200,
+    "monthlyExpenses": 3500,
+    "creditScore": 710,
+    "outstandingLoans": 15000,
+    "loanRepaymentHistory": [1, 0, 1, 1, 1, 1, 0, 1],
+    "accountBalance": 12500,
+    "status": "Review"
+  },
+  {
+    "customerId": "CUST1002",
+    "name": "Bob Smith",
+    "monthlyIncome": 4800,
+    "monthlyExpenses": 2800,
+    "creditScore": 640,
+    "outstandingLoans": 20000,
+    "loanRepaymentHistory": [1, 1, 1, 0, 0, 1, 0, 0],
+    "accountBalance": 7300,
+    "status": "Approved"
+  },
+  {
+    "customerId": "CUST1003",
+    "name": "Rita Risky",
+    "monthlyIncome": 3200,
+    "monthlyExpenses": 3100,
+    "creditScore": 520,
+    "outstandingLoans": 30000,
+    "loanRepaymentHistory": [0, 0, 1, 0, 0, 0, 0, 1],
+    "accountBalance": 1200,
+    "status": "Review"
+  },
+  {
+    "customerId": "CUST1004",
+    "name": "John Doe",
+    "monthlyIncome": 7000,
+    "monthlyExpenses": 4000,
+    "creditScore": 780,
+    "outstandingLoans": 10000,
+    "loanRepaymentHistory": [1, 1, 1, 1, 1, 1, 1, 1],
+    "accountBalance": 15000,
+    "status": "Approved"
+  },
+  {
+    "customerId": "CUST1005",
+    "name": "Nina Debtful",
+    "monthlyIncome": 2500,
+    "monthlyExpenses": 2600,
+    "creditScore": 480,
+    "outstandingLoans": 45000,
+    "loanRepaymentHistory": [0, 0, 0, 0, 0, 0, 0, 0],
+    "accountBalance": 500,
+    "status": "Rejected"
+  },
+  {
+    "customerId": "CUST1006",
+    "name": "Liam Strong",
+    "monthlyIncome": 8000,
+    "monthlyExpenses": 3500,
+    "creditScore": 765,
+    "outstandingLoans": 12000,
+    "loanRepaymentHistory": [1, 1, 1, 1, 1, 1, 1, 1],
+    "accountBalance": 20000,
+    "status": "Approved"
+  },
+  {
+    "customerId": "CUST1007",
+    "name": "Olivia Poor",
+    "monthlyIncome": 3000,
+    "monthlyExpenses": 2900,
+    "creditScore": 510,
+    "outstandingLoans": 28000,
+    "loanRepaymentHistory": [0, 1, 0, 0, 1, 0, 0, 0],
+    "accountBalance": 600,
+    "status": "Review"
+  },
+  {
+    "customerId": "CUST1008",
+    "name": "Marcus Safe",
+    "monthlyIncome": 7200,
+    "monthlyExpenses": 3000,
+    "creditScore": 800,
+    "outstandingLoans": 8000,
+    "loanRepaymentHistory": [1, 1, 1, 1, 1, 1, 1, 1],
+    "accountBalance": 18000,
+    "status": "Approved"
+  },
+  {
+    "customerId": "CUST1009",
+    "name": "Tracy Trouble",
+    "monthlyIncome": 3500,
+    "monthlyExpenses": 3400,
+    "creditScore": 550,
+    "outstandingLoans": 22000,
+    "loanRepaymentHistory": [0, 1, 0, 0, 0, 0, 1, 0],
+    "accountBalance": 700,
+    "status": "Rejected"
+  },
+  {
+    "customerId": "CUST1010",
+    "name": "Evan Average",
+    "monthlyIncome": 6000,
+    "monthlyExpenses": 4000,
+    "creditScore": 690,
+    "outstandingLoans": 16000,
+    "loanRepaymentHistory": [1, 1, 1, 0, 1, 1, 1, 0],
+    "accountBalance": 9000,
+    "status": "Review"
+  },
+  {
+    "customerId": "CUST1011",
+    "name": "Laura Late",
+    "monthlyIncome": 4000,
+    "monthlyExpenses": 3900,
+    "creditScore": 590,
+    "outstandingLoans": 26000,
+    "loanRepaymentHistory": [0, 0, 1, 1, 0, 1, 0, 0],
+    "accountBalance": 1300,
+    "status": "Rejected"
+  },
+  {
+    "customerId": "CUST1012",
+    "name": "Carl Clean",
+    "monthlyIncome": 6700,
+    "monthlyExpenses": 3200,
+    "creditScore": 740,
+    "outstandingLoans": 11000,
+    "loanRepaymentHistory": [1, 1, 1, 1, 1, 1, 1, 1],
+    "accountBalance": 14000,
+    "status": "Approved"
+  },
+  {
+    "customerId": "CUST1013",
+    "name": "Dan Dangerous",
+    "monthlyIncome": 2600,
+    "monthlyExpenses": 2500,
+    "creditScore": 500,
+    "outstandingLoans": 35000,
+    "loanRepaymentHistory": [0, 1, 0, 0, 0, 0, 0, 1],
+    "accountBalance": 1000,
+    "status": "Review"
+  },
+  {
+    "customerId": "CUST1014",
+    "name": "Bella Bright",
+    "monthlyIncome": 7500,
+    "monthlyExpenses": 3200,
+    "creditScore": 770,
+    "outstandingLoans": 9500,
+    "loanRepaymentHistory": [1, 1, 1, 1, 1, 1, 1, 1],
+    "accountBalance": 16000,
+    "status": "Approved"
+  },
+  {
+    "customerId": "CUST1015",
+    "name": "Sam Savey",
+    "monthlyIncome": 5800,
+    "monthlyExpenses": 2500,
+    "creditScore": 720,
+    "outstandingLoans": 14000,
+    "loanRepaymentHistory": [1, 1, 1, 1, 0, 1, 1, 1],
+    "accountBalance": 11000,
+    "status": "Review"
+  },
+  {
+    "customerId": "CUST1016",
+    "name": "Zoe Zapped",
+    "monthlyIncome": 3100,
+    "monthlyExpenses": 3000,
+    "creditScore": 490,
+    "outstandingLoans": 34000,
+    "loanRepaymentHistory": [0, 0, 0, 1, 0, 0, 1, 0],
+    "accountBalance": 800,
+    "status": "Rejected"
+  },
+  {
+    "customerId": "CUST1017",
+    "name": "Tim Trusty",
+    "monthlyIncome": 6900,
+    "monthlyExpenses": 3600,
+    "creditScore": 750,
+    "outstandingLoans": 10000,
+    "loanRepaymentHistory": [1, 1, 1, 1, 1, 1, 1, 1],
+    "accountBalance": 13500,
+    "status": "Approved"
+  },
+  {
+    "customerId": "CUST1018",
+    "name": "Sasha Struggle",
+    "monthlyIncome": 3300,
+    "monthlyExpenses": 3200,
+    "creditScore": 510,
+    "outstandingLoans": 27000,
+    "loanRepaymentHistory": [0, 0, 0, 0, 1, 0, 0, 0],
+    "accountBalance": 900,
+    "status": "Review"
+  },
+  {
+    "customerId": "CUST1019",
+    "name": "Henry Hope",
+    "monthlyIncome": 6100,
+    "monthlyExpenses": 3700,
+    "creditScore": 705,
+    "outstandingLoans": 13000,
+    "loanRepaymentHistory": [1, 1, 0, 1, 1, 1, 1, 1],
+    "accountBalance": 10800,
+    "status": "Approved"
+  },
+  {
+    "customerId": "CUST1020",
+    "name": "Gloria Grit",
+    "monthlyIncome": 2950,
+    "monthlyExpenses": 2850,
+    "creditScore": 470,
+    "outstandingLoans": 39000,
+    "loanRepaymentHistory": [0, 0, 1, 0, 0, 0, 0, 0],
+    "accountBalance": 500,
+    "status": "Rejected"
+  }
+]
